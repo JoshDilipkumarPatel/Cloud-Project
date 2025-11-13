@@ -12,7 +12,7 @@ pipeline{
             steps{ cleanWs() }
         }
         stage ('checkout scm') {
-            steps { git 'https://github.com/your-github-repo' }
+            steps { git 'https://github.com/JoshDilipkumarPatel/Cloud-Project' }
         }
         stage ('maven compile') {
             steps { sh 'mvn clean compile' }
