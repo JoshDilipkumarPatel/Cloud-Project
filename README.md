@@ -1,5 +1,5 @@
 
-Deploying a Petshop Java Application with CI/CD, Docker, and Kubernetes on a VirtualBox IaaS Cloud
+Deploying a Petshop Java Application with CI/CD, Docker, and Kubernetes on an Oracle VirtualBox 
 
 Complited by: 
 - Josh Dilipkumar Patel -  22BCE2692
