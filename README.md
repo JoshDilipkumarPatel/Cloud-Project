@@ -22,8 +22,8 @@ Notes:
 - The report references a GitHub repo https://github.com/Aj7Ay/jpetstore-6 and https://github.com/Aj7Ay/jpetstore-6/tree/master 
 - You still need the full Java source.
 - To build locally:
-    mvn clean package
-    docker build -t your-registry/petshop-app:latest .
-    docker push your-registry/petshop-app:latest
-    kubectl apply -f k8s-manifests.yaml
+    - mvn clean package
+    - docker build -t your-registry/petshop-app:latest .
+    - docker push your-registry/petshop-app:latest
+    - kubectl apply -f k8s-manifests.yaml
 
