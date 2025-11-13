@@ -18,10 +18,9 @@ Files included:
 - k8s-manifests.yaml        : Combined deployment + service manifests
 
 Notes:
-- These files were reconstructed from the "Cloud Project Report.pdf" provided earlier.
-  See the report for original snippets and context. (Report citation: turn1file0). 
-- You still need the full Java source (src/, pom.xml).
-- The report references a GitHub repo (https://github.com/Aj7Ay/jpetstore-6).
+- See the report for original snippets and context.
+- The report references a GitHub repo https://github.com/Aj7Ay/jpetstore-6 and https://github.com/Aj7Ay/jpetstore-6/tree/master 
+- You still need the full Java source.
 - To build locally:
     mvn clean package
     docker build -t your-registry/petshop-app:latest .
