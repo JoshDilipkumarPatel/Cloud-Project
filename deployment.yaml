@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: petshop-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: petshop
+  template:
+    metadata:
+      labels:
+        app: petshop
+    spec:
+      containers:
+      - name: petshop-app
+        image: your-registry/petshop-app:latest
+        ports:
+        - containerPort: 8080
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8080
