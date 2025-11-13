@@ -7,7 +7,7 @@ Complited by:
 - Khushi Bhatnagar - 22BCE3804
 
 
-Petshop Project source (generated from the uploaded Cloud Project Report)
+Petshop Project source 
 
 Files included:
 - Dockerfile                : Multi-stage Dockerfile (build + runtime)
