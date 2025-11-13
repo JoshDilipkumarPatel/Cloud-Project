@@ -2,7 +2,6 @@ Petshop Project source (generated from the uploaded Cloud Project Report)
 
 Files included:
 - Dockerfile                : Multi-stage Dockerfile (build + runtime)
-- Dockerfile.simple         : Simple runtime Dockerfile (assumes jar already built)
 - Jenkinsfile               : Basic Jenkins pipeline (build, image push, deploy)
 - Jenkinsfile_complete      : Complete pipeline example including SonarQube and checks
 - deployment.yaml           : Kubernetes Deployment manifest
