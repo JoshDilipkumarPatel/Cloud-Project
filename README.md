@@ -20,9 +20,8 @@ Files included:
 Notes:
 - These files were reconstructed from the "Cloud Project Report.pdf" provided earlier.
   See the report for original snippets and context. (Report citation: turn1file0). 
-- You still need the full Java source (src/, pom.xml). The report references a GitHub repo
-  (https://github.com/Aj7Ay/jpetstore-6) as an example. If you want, I can try to fetch
-  that repository next (with your permission).
+- You still need the full Java source (src/, pom.xml).
+- The report references a GitHub repo (https://github.com/Aj7Ay/jpetstore-6).
 - To build locally:
     mvn clean package
     docker build -t your-registry/petshop-app:latest .
