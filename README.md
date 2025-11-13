@@ -1,7 +1,7 @@
-Complited by : 
-Josh Dilipkumar Patel -  22BCE2692
-Shahil Raj - 22BCE2541
-Khushi Bhatnagar - 22BCE3804
+Complited by: 
+- Josh Dilipkumar Patel -  22BCE2692
+- Shahil Raj - 22BCE2541
+- Khushi Bhatnagar - 22BCE3804
 
 
 Petshop Project source (generated from the uploaded Cloud Project Report)
