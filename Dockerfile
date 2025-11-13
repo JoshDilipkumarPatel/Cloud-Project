@@ -1,4 +1,3 @@
-# Multi-stage Dockerfile (build with Maven, run with OpenJDK)
 FROM maven:3.8.5-openjdk-17 AS build
 WORKDIR /home/app
 COPY pom.xml /home/app
